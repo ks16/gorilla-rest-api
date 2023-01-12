@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: gorilla-rest-api
+  description: Gorilla REST API.
+  tags:
+    - go
+    - website
+spec:
+  type: service
+  lifecycle: production
+  owner: ks16
